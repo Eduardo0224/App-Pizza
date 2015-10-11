@@ -21,6 +21,35 @@ class IngredientesPizza: UIViewController, UITableViewDelegate, UITableViewDataS
 
         // Do any additional setup after loading the view.
         print("Esta es la pizza: \(pizza?.tamano), \(pizza?.tipoMasa), \(pizza?.tipoQueso)")
+        
+        let addButton = UIBarButtonItem(title: "Agregar", style: .Plain, target: self, action: Selector("showAlertToAddIngredient"))
+        self.navigationItem.rightBarButtonItem = addButton
+    }
+    
+    func showAlertToAddIngredient() {
+        print("Debe agregar un ingrediente")
+        
+        let alertController = UIAlertController(title: "Nuevo Ingrediente", message: "Escribe el ingrediente que quieres agregar", preferredStyle: UIAlertControllerStyle.Alert)
+        
+        let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default) {
+            (action) -> Void in
+            
+            let txtNuevoIngrediente = alertController.textFields?.first
+            let nuevoIngrediente : String = (txtNuevoIngrediente?.text!)!
+            // FIXME: Hacer del arreglo de ingreidentes, un arreglo persistente
+            self.ingredientes.append("\(nuevoIngrediente)")
+            // FIXME: cuando la lista se recarga y antes se tenía seleccionado algún ítem, visualmente ningún ingrediente esta seleccionado pero se puede pasar a la siguiente vista
+            self.lista?.reloadData()
+        }
+        
+        alertController.addTextFieldWithConfigurationHandler {
+            (textFieldNuevoIngrediente) -> Void in
+            textFieldNuevoIngrediente.placeholder = "Nuevo ingrediente"
+        }
+        
+        alertController.addAction(okAction)
+        
+        self.presentViewController(alertController, animated: true, completion: nil)
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
