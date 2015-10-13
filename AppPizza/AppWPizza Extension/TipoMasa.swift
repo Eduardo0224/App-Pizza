@@ -36,13 +36,13 @@ class TipoMasa: WKInterfaceController {
 
 
     @IBAction func pickerChanged(value: Int) {
-        pizza.tamano = tiposMasa[value]
-        print("Tamaño pizza: \(pizza.tamano)")
+        pizza.tipoMasa = tiposMasa[value]
+        print("Tipo Masa Pizza: \(pizza.tipoMasa)")
 
     }
     @IBAction func confirmar() {
         // Quitar el segue manual del storyboard y hacer uso de la función
         // pushControllerWithName
-//        pushControllerWithName("idTipoMasa", context: self.pizza)
+        pushControllerWithName("idTipoQueso", context: self.pizza)
     }
 }

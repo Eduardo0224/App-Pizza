@@ -55,6 +55,59 @@
             </objects>
             <point key="canvasLocation" x="389" y="389"/>
         </scene>
+        <!--idTipoQueso-->
+        <scene sceneID="OmR-jl-7Hs">
+            <objects>
+                <controller identifier="idTipoQueso" hidesWhenLoading="NO" id="FVc-X9-hrA" customClass="TipoQueso" customModule="AppWPizza_Extension">
+                    <items>
+                        <label width="1" alignment="center" text="Tipo Queso" textAlignment="center" id="9AM-Gk-P63"/>
+                        <picker width="0.90000000000000002" height="0.5" alignment="center" id="Igv-jb-vin">
+                            <connections>
+                                <action selector="pickerChanged:" destination="FVc-X9-hrA" id="Q9q-xy-5bG"/>
+                            </connections>
+                        </picker>
+                        <button width="1" alignment="left" title="Confirmar" id="jqw-c3-p92">
+                            <color key="titleColor" red="0.29803921570000003" green="0.85098039219999999" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="confirmarSeleccion" destination="FVc-X9-hrA" id="qTQ-hH-53W"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="pickerTipoQueso" destination="Igv-jb-vin" id="GeM-MW-zdi"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="574" y="389"/>
+        </scene>
+        <!--idIngredientes-->
+        <scene sceneID="xhU-mv-yzM">
+            <objects>
+                <controller identifier="idIngredientes" hidesWhenLoading="NO" id="hi1-Bj-xHA" customClass="Ingredientes" customModule="AppWPizza_Extension">
+                    <items>
+                        <label width="1" alignment="center" text="Ingredientes" textAlignment="center" id="U1f-nO-LpN"/>
+                        <table alignment="left" id="kpQ-Z3-41s">
+                            <items>
+                                <tableRow identifier="CeldaWK" id="B2E-yJ-AmG" customClass="CeldaWK" customModule="AppWPizza_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="I3m-ib-eb1">
+                                        <items>
+                                            <label width="1" alignment="left" verticalAlignment="center" text="Jamón" id="gHD-pt-by9"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="lblNombreIngrediente" destination="gHD-pt-by9" id="Q7u-Kg-VjE"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="listaWK" destination="kpQ-Z3-41s" id="XcZ-Id-8Hn"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="738" y="385"/>
+        </scene>
         <!--Interface Controller-->
         <scene sceneID="Oub-IK-sjP">
             <objects>
