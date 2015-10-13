@@ -44,5 +44,9 @@ class InterfaceController: WKInterfaceController {
         print("Tamaño pizza: \(pizza.tamano)")
     }
     
-
+    @IBAction func confirmarSeleccion() {
+        // Quitar el segue manual del storyboard y hacer uso de la función
+        // pushControllerWithName
+        pushControllerWithName("idTipoMasa", context: self.pizza)
+    }
 }

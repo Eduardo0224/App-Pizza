@@ -18,6 +18,9 @@
                         </picker>
                         <button width="1" alignment="left" title="Confirmar" id="0iF-ya-CgJ">
                             <color key="titleColor" red="0.29803921570000003" green="0.85098039219999999" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="confirmarSeleccion" destination="AgC-eL-Hgc" id="Fei-nq-udg"/>
+                            </connections>
                         </button>
                     </items>
                     <connections>
@@ -26,6 +29,31 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="209" y="390"/>
+        </scene>
+        <!--idTipoMasa-->
+        <scene sceneID="Y0Z-4U-ZP2">
+            <objects>
+                <controller identifier="idTipoMasa" hidesWhenLoading="NO" id="Qqe-fJ-Ynd" customClass="TipoMasa" customModule="AppWPizza_Extension">
+                    <items>
+                        <label width="1" alignment="left" text="Tipo Masa" textAlignment="center" id="t5G-8z-czB"/>
+                        <picker width="0.90000000000000002" height="0.5" alignment="center" id="XYB-d5-e0g">
+                            <connections>
+                                <action selector="pickerChanged:" destination="Qqe-fJ-Ynd" id="SFe-Du-Qvx"/>
+                            </connections>
+                        </picker>
+                        <button width="1" alignment="left" title="Confirmar" id="RFU-8K-ACZ">
+                            <color key="titleColor" red="0.29803921570000003" green="0.85098039219999999" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="confirmar" destination="Qqe-fJ-Ynd" id="pMC-yP-uX0"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="pickerTipoMasa" destination="XYB-d5-e0g" id="7o6-42-wQT"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="389" y="389"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="Oub-IK-sjP">

@@ -18,6 +18,7 @@
 		B24CBED11BC7087900D2F455 /* AppPizzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24CBED01BC7087900D2F455 /* AppPizzaTests.swift */; };
 		B24CBEDC1BC7087900D2F455 /* AppPizzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24CBEDB1BC7087900D2F455 /* AppPizzaUITests.swift */; };
 		B24CBEEA1BC70F8900D2F455 /* TipoMasaPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24CBEE91BC70F8900D2F455 /* TipoMasaPizza.swift */; settings = {ASSET_TAGS = (); }; };
+		B296AD081BCD3076000F0E62 /* TipoMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = B296AD071BCD3076000F0E62 /* TipoMasa.swift */; settings = {ASSET_TAGS = (); }; };
 		B2BABB461BC93D81004F4786 /* ConfirmacionPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BABB451BC93D81004F4786 /* ConfirmacionPizza.swift */; settings = {ASSET_TAGS = (); }; };
 		B2BABB481BC94F83004F4786 /* PizzaLista.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BABB471BC94F83004F4786 /* PizzaLista.swift */; settings = {ASSET_TAGS = (); }; };
 		B2D734D11BCBFE97003B5B3E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D734CF1BCBFE97003B5B3E /* Interface.storyboard */; };
@@ -104,6 +105,7 @@
 		B24CBEDB1BC7087900D2F455 /* AppPizzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPizzaUITests.swift; sourceTree = "<group>"; };
 		B24CBEDD1BC7087900D2F455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B24CBEE91BC70F8900D2F455 /* TipoMasaPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoMasaPizza.swift; sourceTree = "<group>"; };
+		B296AD071BCD3076000F0E62 /* TipoMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoMasa.swift; sourceTree = "<group>"; };
 		B2BABB451BC93D81004F4786 /* ConfirmacionPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmacionPizza.swift; sourceTree = "<group>"; };
 		B2BABB471BC94F83004F4786 /* PizzaLista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaLista.swift; sourceTree = "<group>"; };
 		B2D734CD1BCBFE97003B5B3E /* AppWPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppWPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -229,6 +231,7 @@
 				B2D734E21BCBFE97003B5B3E /* Assets.xcassets */,
 				B2D734E41BCBFE97003B5B3E /* Info.plist */,
 				B2D734F21BCC07CF003B5B3E /* PizzaWK.swift */,
+				B296AD071BCD3076000F0E62 /* TipoMasa.swift */,
 			);
 			path = "AppWPizza Extension";
 			sourceTree = "<group>";
@@ -458,6 +461,7 @@
 				B2D734E11BCBFE97003B5B3E /* ExtensionDelegate.swift in Sources */,
 				B2D734DF1BCBFE97003B5B3E /* InterfaceController.swift in Sources */,
 				B2D734F31BCC07CF003B5B3E /* PizzaWK.swift in Sources */,
+				B296AD081BCD3076000F0E62 /* TipoMasa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -775,6 +779,7 @@
 				B2D734EB1BCBFE97003B5B3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2D734EE1BCBFE97003B5B3E /* Build configuration list for PBXNativeTarget "AppWPizza" */ = {
 			isa = XCConfigurationList;
@@ -783,6 +788,7 @@
 				B2D734E91BCBFE97003B5B3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
