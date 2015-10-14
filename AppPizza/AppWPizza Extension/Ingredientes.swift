@@ -40,17 +40,28 @@ class Ingredientes: WKInterfaceController {
         }
     }
     
+    func alerta () {
+        let alerta = WKAlertAction(title: "Ok", style: .Default) { () -> Void in
+        }
+        
+        self.presentAlertControllerWithTitle("Demasiados ingredientes", message: "5 ingredientes maximo", preferredStyle: .Alert, actions: [alerta])
+    }
+    
     override func table(table: WKInterfaceTable, didSelectRowAtIndex rowIndex: Int) {
         print("Indice: \(rowIndex)")
+        
+        alerta()
     
         booleans[rowIndex] = !booleans[rowIndex]
         
         let row = listaWK.rowControllerAtIndex(rowIndex) as! CeldaWK
+        
+
         if booleans[rowIndex] {
-            row.checkedImage.setImageNamed("Check_On")
+            row.checkedImage.setImageNamed("check_on_icon.png")
         }
         else {
-            row.checkedImage.setImageNamed("Check_Off")
+            row.checkedImage.setImageNamed("check_off_icon.png")
         }
         
         print("Booleans \(booleans[rowIndex])")

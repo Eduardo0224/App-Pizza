@@ -22,6 +22,7 @@
 		B257103E1BCDBD4200F93518 /* Ingredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B257103D1BCDBD4200F93518 /* Ingredientes.swift */; settings = {ASSET_TAGS = (); }; };
 		B25710401BCDC52B00F93518 /* CeldaWK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B257103F1BCDC52B00F93518 /* CeldaWK.swift */; settings = {ASSET_TAGS = (); }; };
 		B296AD081BCD3076000F0E62 /* TipoMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = B296AD071BCD3076000F0E62 /* TipoMasa.swift */; settings = {ASSET_TAGS = (); }; };
+		B2A9CA911BCF101C0012E04E /* check_on_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B2A9CA901BCF101C0012E04E /* check_on_icon.png */; settings = {ASSET_TAGS = (); }; };
 		B2B996511BCE87D300EF4930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B996501BCE87D300EF4930 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
 		B2BABB461BC93D81004F4786 /* ConfirmacionPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BABB451BC93D81004F4786 /* ConfirmacionPizza.swift */; settings = {ASSET_TAGS = (); }; };
 		B2BABB481BC94F83004F4786 /* PizzaLista.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BABB471BC94F83004F4786 /* PizzaLista.swift */; settings = {ASSET_TAGS = (); }; };
@@ -32,6 +33,7 @@
 		B2D734E31BCBFE97003B5B3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D734E21BCBFE97003B5B3E /* Assets.xcassets */; };
 		B2D734E71BCBFE97003B5B3E /* AppWPizza.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B2D734CD1BCBFE97003B5B3E /* AppWPizza.app */; };
 		B2D734F31BCC07CF003B5B3E /* PizzaWK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D734F21BCC07CF003B5B3E /* PizzaWK.swift */; settings = {ASSET_TAGS = (); }; };
+		B2FDECD81BCF134A004F628E /* check_off_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FDECD71BCF134A004F628E /* check_off_icon.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +114,7 @@
 		B257103D1BCDBD4200F93518 /* Ingredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredientes.swift; sourceTree = "<group>"; };
 		B257103F1BCDC52B00F93518 /* CeldaWK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaWK.swift; sourceTree = "<group>"; };
 		B296AD071BCD3076000F0E62 /* TipoMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoMasa.swift; sourceTree = "<group>"; };
+		B2A9CA901BCF101C0012E04E /* check_on_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_on_icon.png; sourceTree = "<group>"; };
 		B2B996501BCE87D300EF4930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2BABB451BC93D81004F4786 /* ConfirmacionPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmacionPizza.swift; sourceTree = "<group>"; };
 		B2BABB471BC94F83004F4786 /* PizzaLista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaLista.swift; sourceTree = "<group>"; };
@@ -124,6 +127,7 @@
 		B2D734E21BCBFE97003B5B3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2D734E41BCBFE97003B5B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2D734F21BCC07CF003B5B3E /* PizzaWK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaWK.swift; sourceTree = "<group>"; };
+		B2FDECD71BCF134A004F628E /* check_off_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_off_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,9 +223,19 @@
 			path = AppPizzaUITests;
 			sourceTree = "<group>";
 		};
+		B2A9CA8F1BCF100E0012E04E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B2FDECD71BCF134A004F628E /* check_off_icon.png */,
+				B2A9CA901BCF101C0012E04E /* check_on_icon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		B2D734CE1BCBFE97003B5B3E /* AppWPizza */ = {
 			isa = PBXGroup;
 			children = (
+				B2A9CA8F1BCF100E0012E04E /* Images */,
 				B2D734CF1BCBFE97003B5B3E /* Interface.storyboard */,
 				B2B996501BCE87D300EF4930 /* Assets.xcassets */,
 				B2D734D41BCBFE97003B5B3E /* Info.plist */,
@@ -417,7 +431,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2B996511BCE87D300EF4930 /* Assets.xcassets in Resources */,
+				B2FDECD81BCF134A004F628E /* check_off_icon.png in Resources */,
 				B2D734D11BCBFE97003B5B3E /* Interface.storyboard in Resources */,
+				B2A9CA911BCF101C0012E04E /* check_on_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

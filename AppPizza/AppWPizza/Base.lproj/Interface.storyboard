@@ -85,16 +85,15 @@
             <objects>
                 <controller identifier="idIngredientes" hidesWhenLoading="NO" id="hi1-Bj-xHA" customClass="Ingredientes" customModule="AppWPizza_Extension">
                     <items>
-                        <label width="1" alignment="center" text="Ingredientes" textAlignment="center" id="U1f-nO-LpN"/>
+                        <label width="1" alignment="center" text="Ingredientes" textAlignment="center" baselineAdjustment="alignCenters" id="U1f-nO-LpN"/>
                         <table alignment="left" id="kpQ-Z3-41s">
                             <items>
                                 <tableRow identifier="CeldaWK" id="B2E-yJ-AmG" customClass="CeldaWK" customModule="AppWPizza_Extension">
                                     <group key="rootItem" width="1" alignment="left" spacing="30" id="I3m-ib-eb1">
                                         <items>
                                             <label width="0.69999999999999996" alignment="left" verticalAlignment="center" text="Jamón" id="gHD-pt-by9"/>
-                                            <imageView width="0.40000000000000002" alignment="right" verticalAlignment="center" contentMode="scaleAspectFit" id="ghC-kx-KCO"/>
+                                            <imageView width="0.29999999999999999" alignment="right" verticalAlignment="center" image="check_off_icon.png" contentMode="scaleAspectFit" id="ghC-kx-KCO"/>
                                         </items>
-                                        <color key="backgroundColor" red="0.53448279399999998" green="0.85312099600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </group>
                                     <connections>
                                         <outlet property="checkedImage" destination="ghC-kx-KCO" id="bP8-UQ-jbJ"/>
