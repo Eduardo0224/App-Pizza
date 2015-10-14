@@ -22,10 +22,10 @@
 		B257103E1BCDBD4200F93518 /* Ingredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B257103D1BCDBD4200F93518 /* Ingredientes.swift */; settings = {ASSET_TAGS = (); }; };
 		B25710401BCDC52B00F93518 /* CeldaWK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B257103F1BCDC52B00F93518 /* CeldaWK.swift */; settings = {ASSET_TAGS = (); }; };
 		B296AD081BCD3076000F0E62 /* TipoMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = B296AD071BCD3076000F0E62 /* TipoMasa.swift */; settings = {ASSET_TAGS = (); }; };
+		B2B996511BCE87D300EF4930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B996501BCE87D300EF4930 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
 		B2BABB461BC93D81004F4786 /* ConfirmacionPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BABB451BC93D81004F4786 /* ConfirmacionPizza.swift */; settings = {ASSET_TAGS = (); }; };
 		B2BABB481BC94F83004F4786 /* PizzaLista.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BABB471BC94F83004F4786 /* PizzaLista.swift */; settings = {ASSET_TAGS = (); }; };
 		B2D734D11BCBFE97003B5B3E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D734CF1BCBFE97003B5B3E /* Interface.storyboard */; };
-		B2D734D31BCBFE97003B5B3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D734D21BCBFE97003B5B3E /* Assets.xcassets */; };
 		B2D734DA1BCBFE97003B5B3E /* AppWPizza Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B2D734D91BCBFE97003B5B3E /* AppWPizza Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B2D734DF1BCBFE97003B5B3E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D734DE1BCBFE97003B5B3E /* InterfaceController.swift */; };
 		B2D734E11BCBFE97003B5B3E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D734E01BCBFE97003B5B3E /* ExtensionDelegate.swift */; };
@@ -112,11 +112,11 @@
 		B257103D1BCDBD4200F93518 /* Ingredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredientes.swift; sourceTree = "<group>"; };
 		B257103F1BCDC52B00F93518 /* CeldaWK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaWK.swift; sourceTree = "<group>"; };
 		B296AD071BCD3076000F0E62 /* TipoMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoMasa.swift; sourceTree = "<group>"; };
+		B2B996501BCE87D300EF4930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2BABB451BC93D81004F4786 /* ConfirmacionPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmacionPizza.swift; sourceTree = "<group>"; };
 		B2BABB471BC94F83004F4786 /* PizzaLista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaLista.swift; sourceTree = "<group>"; };
 		B2D734CD1BCBFE97003B5B3E /* AppWPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppWPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D734D01BCBFE97003B5B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		B2D734D21BCBFE97003B5B3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2D734D41BCBFE97003B5B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2D734D91BCBFE97003B5B3E /* AppWPizza Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AppWPizza Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D734DE1BCBFE97003B5B3E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
@@ -223,7 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				B2D734CF1BCBFE97003B5B3E /* Interface.storyboard */,
-				B2D734D21BCBFE97003B5B3E /* Assets.xcassets */,
+				B2B996501BCE87D300EF4930 /* Assets.xcassets */,
 				B2D734D41BCBFE97003B5B3E /* Info.plist */,
 			);
 			path = AppWPizza;
@@ -416,7 +416,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2D734D31BCBFE97003B5B3E /* Assets.xcassets in Resources */,
+				B2B996511BCE87D300EF4930 /* Assets.xcassets in Resources */,
 				B2D734D11BCBFE97003B5B3E /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,6 +16,7 @@ class Ingredientes: WKInterfaceController {
     var pizza = PizzaWK()
     
     var ingredientes = ["Jamón", "Pepperoni", "Pavo", "Salchicha", "Aceituna", "Cebolla", "Pimiento", "Piña", "Anchoa", "Jalapeño", "Maíz Tierno"]
+    var booleans : [Bool] = []
 
 
     override func awakeWithContext(context: AnyObject?) {
@@ -33,5 +34,26 @@ class Ingredientes: WKInterfaceController {
             let row = listaWK.rowControllerAtIndex(index) as! CeldaWK
             row.lblNombreIngrediente.setText(name)
         }
+        
+        for _ in ingredientes {
+            booleans.append(false)
+        }
+    }
+    
+    override func table(table: WKInterfaceTable, didSelectRowAtIndex rowIndex: Int) {
+        print("Indice: \(rowIndex)")
+    
+        booleans[rowIndex] = !booleans[rowIndex]
+        
+        let row = listaWK.rowControllerAtIndex(rowIndex) as! CeldaWK
+        if booleans[rowIndex] {
+            row.checkedImage.setImageNamed("Check_On")
+        }
+        else {
+            row.checkedImage.setImageNamed("Check_Off")
+        }
+        
+        print("Booleans \(booleans[rowIndex])")
+        
     }
 }

@@ -11,6 +11,7 @@ import WatchKit
 class CeldaWK: NSObject {
 
     @IBOutlet var lblNombreIngrediente: WKInterfaceLabel!
+    @IBOutlet var checkedImage: WKInterfaceImage!
     
     
     

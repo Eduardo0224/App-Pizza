@@ -89,12 +89,15 @@
                         <table alignment="left" id="kpQ-Z3-41s">
                             <items>
                                 <tableRow identifier="CeldaWK" id="B2E-yJ-AmG" customClass="CeldaWK" customModule="AppWPizza_Extension">
-                                    <group key="rootItem" width="1" alignment="left" id="I3m-ib-eb1">
+                                    <group key="rootItem" width="1" alignment="left" spacing="30" id="I3m-ib-eb1">
                                         <items>
-                                            <label width="1" alignment="left" verticalAlignment="center" text="Jamón" id="gHD-pt-by9"/>
+                                            <label width="0.69999999999999996" alignment="left" verticalAlignment="center" text="Jamón" id="gHD-pt-by9"/>
+                                            <imageView width="0.40000000000000002" alignment="right" verticalAlignment="center" contentMode="scaleAspectFit" id="ghC-kx-KCO"/>
                                         </items>
+                                        <color key="backgroundColor" red="0.53448279399999998" green="0.85312099600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </group>
                                     <connections>
+                                        <outlet property="checkedImage" destination="ghC-kx-KCO" id="bP8-UQ-jbJ"/>
                                         <outlet property="lblNombreIngrediente" destination="gHD-pt-by9" id="Q7u-Kg-VjE"/>
                                     </connections>
                                 </tableRow>
