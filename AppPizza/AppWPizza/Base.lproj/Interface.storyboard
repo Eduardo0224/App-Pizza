@@ -85,7 +85,17 @@
             <objects>
                 <controller identifier="idIngredientes" hidesWhenLoading="NO" id="hi1-Bj-xHA" customClass="Ingredientes" customModule="AppWPizza_Extension">
                     <items>
-                        <label width="1" alignment="center" text="Ingredientes" textAlignment="center" baselineAdjustment="alignCenters" id="U1f-nO-LpN"/>
+                        <group width="1" height="0.5" alignment="left" layout="vertical" id="1Uj-5e-otb">
+                            <items>
+                                <label width="1" alignment="center" text="Ingredientes" textAlignment="center" baselineAdjustment="alignCenters" id="U1f-nO-LpN"/>
+                                <button width="0.90000000000000002" alignment="center" title="Confirmar" id="bfE-yp-OVj">
+                                    <color key="titleColor" red="0.29803921570000003" green="0.85098039219999999" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="confirmarSeleccion" destination="hi1-Bj-xHA" id="iPB-Ff-ddb"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
                         <table alignment="left" id="kpQ-Z3-41s">
                             <items>
                                 <tableRow identifier="CeldaWK" id="B2E-yJ-AmG" customClass="CeldaWK" customModule="AppWPizza_Extension">
