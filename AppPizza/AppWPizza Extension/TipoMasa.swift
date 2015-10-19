@@ -32,6 +32,8 @@ class TipoMasa: WKInterfaceController {
             pickerItems.append(item)
         }
         self.pickerTipoMasa.setItems(pickerItems)
+        
+        pizza.tipoMasa = tiposMasa.first
     }
 
 

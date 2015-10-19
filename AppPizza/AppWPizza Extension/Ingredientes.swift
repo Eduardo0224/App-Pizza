@@ -46,6 +46,11 @@ class Ingredientes: WKInterfaceController {
         if ingredientesSeleccionados.count == 0 {
             alerta("Sin ingredientes", descripccion: "debes agregar al menos un ingrediente")
         }
+        else {
+            self.pizza.ingredientes = ingredientesSeleccionados
+            pushControllerWithName("iDConfirmar", context: self.pizza)
+
+        }
         
     }
     

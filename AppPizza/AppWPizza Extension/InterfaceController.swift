@@ -27,6 +27,8 @@ class InterfaceController: WKInterfaceController {
             pickerItems.append(item)
         }
         self.pickerTamañoPizza.setItems(pickerItems)
+        
+        pizza.tamano = tamañosPizza.first
     }
 
     override func willActivate() {

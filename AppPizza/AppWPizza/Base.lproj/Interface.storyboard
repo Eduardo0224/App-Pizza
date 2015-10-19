@@ -120,6 +120,30 @@
             </objects>
             <point key="canvasLocation" x="738" y="385"/>
         </scene>
+        <!--iDConfirmar-->
+        <scene sceneID="el8-7I-C11">
+            <objects>
+                <controller identifier="iDConfirmar" hidesWhenLoading="NO" id="FfA-hY-jsn" customClass="ConfirmacionPizzaWK" customModule="AppWPizza_Extension">
+                    <items>
+                        <label width="0.90000000000000002" alignment="center" text="Tu Pizza" textAlignment="center" id="96x-9j-w3X">
+                            <fontDescription key="font" style="UICTFontTextStyleTitle1"/>
+                        </label>
+                        <button width="1" alignment="left" title="Enviar al horno" id="Ysi-gW-Mw1">
+                            <color key="titleColor" red="0.29803921570000003" green="0.85098039219999999" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="enviarAlHorno" destination="FfA-hY-jsn" id="7iM-Vm-sdf"/>
+                            </connections>
+                        </button>
+                        <separator width="1" alignment="center" id="P16-B3-Yj5"/>
+                        <label width="1" alignment="left" text="Label" textAlignment="left" numberOfLines="0" id="Kki-dP-CZQ"/>
+                    </items>
+                    <connections>
+                        <outlet property="lblPizzaLista" destination="Kki-dP-CZQ" id="P9r-vR-6Nw"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="916" y="385"/>
+        </scene>
         <!--Interface Controller-->
         <scene sceneID="Oub-IK-sjP">
             <objects>

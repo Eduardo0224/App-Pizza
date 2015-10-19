@@ -39,6 +39,8 @@ class TipoQueso: WKInterfaceController {
             pickerItems.append(item)
         }
         self.pickerTipoQueso.setItems(pickerItems)
+        
+        pizza.tipoQueso = tiposQueso.first
     }
     
     // MARK: IBAction

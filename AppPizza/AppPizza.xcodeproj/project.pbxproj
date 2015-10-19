@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2089E9C1BD5A45B002D0E8C /* ConfirmacionPizzaWK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2089E9B1BD5A45B002D0E8C /* ConfirmacionPizzaWK.swift */; settings = {ASSET_TAGS = (); }; };
 		B21A8A311BC71373004B7072 /* TipoQuesoPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21A8A301BC71373004B7072 /* TipoQuesoPizza.swift */; settings = {ASSET_TAGS = (); }; };
 		B2290FFA1BC86E99001A9509 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2290FF91BC86E99001A9509 /* Pizza.swift */; settings = {ASSET_TAGS = (); }; };
 		B2290FFC1BC877C4001A9509 /* IngredientesPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2290FFB1BC877C4001A9509 /* IngredientesPizza.swift */; settings = {ASSET_TAGS = (); }; };
@@ -93,6 +94,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B2089E9B1BD5A45B002D0E8C /* ConfirmacionPizzaWK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmacionPizzaWK.swift; sourceTree = "<group>"; };
 		B21A8A301BC71373004B7072 /* TipoQuesoPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoQuesoPizza.swift; sourceTree = "<group>"; };
 		B2290FF91BC86E99001A9509 /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 		B2290FFB1BC877C4001A9509 /* IngredientesPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientesPizza.swift; sourceTree = "<group>"; };
@@ -255,6 +257,7 @@
 				B257103B1BCDBA2600F93518 /* TipoQueso.swift */,
 				B257103D1BCDBD4200F93518 /* Ingredientes.swift */,
 				B257103F1BCDC52B00F93518 /* CeldaWK.swift */,
+				B2089E9B1BD5A45B002D0E8C /* ConfirmacionPizzaWK.swift */,
 			);
 			path = "AppWPizza Extension";
 			sourceTree = "<group>";
@@ -487,6 +490,7 @@
 				B2D734E11BCBFE97003B5B3E /* ExtensionDelegate.swift in Sources */,
 				B2D734DF1BCBFE97003B5B3E /* InterfaceController.swift in Sources */,
 				B257103C1BCDBA2600F93518 /* TipoQueso.swift in Sources */,
+				B2089E9C1BD5A45B002D0E8C /* ConfirmacionPizzaWK.swift in Sources */,
 				B25710401BCDC52B00F93518 /* CeldaWK.swift in Sources */,
 				B2D734F31BCC07CF003B5B3E /* PizzaWK.swift in Sources */,
 				B296AD081BCD3076000F0E62 /* TipoMasa.swift in Sources */,
