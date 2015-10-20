@@ -23,6 +23,7 @@
 		B257103E1BCDBD4200F93518 /* Ingredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B257103D1BCDBD4200F93518 /* Ingredientes.swift */; settings = {ASSET_TAGS = (); }; };
 		B25710401BCDC52B00F93518 /* CeldaWK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B257103F1BCDC52B00F93518 /* CeldaWK.swift */; settings = {ASSET_TAGS = (); }; };
 		B296AD081BCD3076000F0E62 /* TipoMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = B296AD071BCD3076000F0E62 /* TipoMasa.swift */; settings = {ASSET_TAGS = (); }; };
+		B29C5F891BD6D04D001056B3 /* PizzaListaWK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29C5F881BD6D04D001056B3 /* PizzaListaWK.swift */; settings = {ASSET_TAGS = (); }; };
 		B2A9CA911BCF101C0012E04E /* check_on_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B2A9CA901BCF101C0012E04E /* check_on_icon.png */; settings = {ASSET_TAGS = (); }; };
 		B2B996511BCE87D300EF4930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B996501BCE87D300EF4930 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
 		B2BABB461BC93D81004F4786 /* ConfirmacionPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BABB451BC93D81004F4786 /* ConfirmacionPizza.swift */; settings = {ASSET_TAGS = (); }; };
@@ -116,6 +117,7 @@
 		B257103D1BCDBD4200F93518 /* Ingredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredientes.swift; sourceTree = "<group>"; };
 		B257103F1BCDC52B00F93518 /* CeldaWK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaWK.swift; sourceTree = "<group>"; };
 		B296AD071BCD3076000F0E62 /* TipoMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoMasa.swift; sourceTree = "<group>"; };
+		B29C5F881BD6D04D001056B3 /* PizzaListaWK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaListaWK.swift; sourceTree = "<group>"; };
 		B2A9CA901BCF101C0012E04E /* check_on_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_on_icon.png; sourceTree = "<group>"; };
 		B2B996501BCE87D300EF4930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2BABB451BC93D81004F4786 /* ConfirmacionPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmacionPizza.swift; sourceTree = "<group>"; };
@@ -258,6 +260,7 @@
 				B257103D1BCDBD4200F93518 /* Ingredientes.swift */,
 				B257103F1BCDC52B00F93518 /* CeldaWK.swift */,
 				B2089E9B1BD5A45B002D0E8C /* ConfirmacionPizzaWK.swift */,
+				B29C5F881BD6D04D001056B3 /* PizzaListaWK.swift */,
 			);
 			path = "AppWPizza Extension";
 			sourceTree = "<group>";
@@ -490,6 +493,7 @@
 				B2D734E11BCBFE97003B5B3E /* ExtensionDelegate.swift in Sources */,
 				B2D734DF1BCBFE97003B5B3E /* InterfaceController.swift in Sources */,
 				B257103C1BCDBA2600F93518 /* TipoQueso.swift in Sources */,
+				B29C5F891BD6D04D001056B3 /* PizzaListaWK.swift in Sources */,
 				B2089E9C1BD5A45B002D0E8C /* ConfirmacionPizzaWK.swift in Sources */,
 				B25710401BCDC52B00F93518 /* CeldaWK.swift in Sources */,
 				B2D734F31BCC07CF003B5B3E /* PizzaWK.swift in Sources */,

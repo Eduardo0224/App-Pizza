@@ -144,6 +144,17 @@
             </objects>
             <point key="canvasLocation" x="916" y="385"/>
         </scene>
+        <!--iDPizzaLista-->
+        <scene sceneID="ATs-0k-78h">
+            <objects>
+                <controller identifier="iDPizzaLista" hidesWhenLoading="NO" id="nDV-GB-I7j" customClass="PizzaListaWK" customModule="AppWPizza_Extension">
+                    <items>
+                        <label width="1" alignment="center" verticalAlignment="center" text="Que disfrutez tu Pizza !!! :)" textAlignment="center" numberOfLines="0" id="pWQ-OQ-8a0"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1093" y="385"/>
+        </scene>
         <!--Interface Controller-->
         <scene sceneID="Oub-IK-sjP">
             <objects>
